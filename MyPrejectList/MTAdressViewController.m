@@ -13,12 +13,14 @@
 @end
 
 @implementation MTAdressViewController
+
 - (IBAction)toggleMenu:(id)sender {
-    MTViewController *vc = [[MTViewController alloc] initWithNibName:@"MTViewController"
-                                                              bundle:nil];
-    [self.navigationController popToViewController:vc animated:YES];
-    //[self.navigationController popToRootViewControllerAnimated:YES];
-    
+//    MTViewController *vc = [[MTViewController alloc] initWithNibName:@"MTViewController"
+//                                                              bundle:nil];
+//    [self.navigationController popToViewController:vc animated:YES];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
