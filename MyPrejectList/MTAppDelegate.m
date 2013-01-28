@@ -19,7 +19,7 @@
     MTViewController *vc = [[MTViewController alloc] initWithNibName:@"MTViewController" bundle:nil];
     
     self.viewController = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.viewController.navigationBarHidden = YES;
+//    self.viewController.navigationBarHidden = YES;
     
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
